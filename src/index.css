@@ -30,12 +30,13 @@
 }
 .content {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 20px;
 }
 
 .blog-preview a{
   text-decoration: none;
+  margin: 20px;
 }
 
 .blog-details h2 {
