@@ -1,30 +1,20 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route , Switch} from 'react-router-dom'
-import Navbar from './component/layout/Navbar'
-import dashboard from './component/dashboard/dashboard'
-import ProjectDetail from './component/projects/ProjectDetail'
-import SignIn from './component/auth/SignIn'
-import SignUp from './component/auth/Singup'
-import CreateProject from './component/projects/CreateProject'
-
-
-const App = () => {
-
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import LoginForm from './component/LoginForm'
+import RegisterForm from './component/RegisterForm'
+import RandingPage from './component/RandingPage'
+function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-
-        <Navbar/>
+    <Router>
+      <div>
         <Switch>
-          <Route exact path='/' component={dashboard}/>
-          <Route path='/project/:id' component={ProjectDetail}/>
-          <Route path='/signin' component={SignIn}/>
-          <Route path='/signup' component={SignUp}/>
-          <Route path='/create' component={CreateProject}/>
+          <Route exact path="/" component={RandingPage} />
+          <Route exact path="/login" component={LoginForm} />
+          <Route exact path="/register" component={RegisterForm} />
         </Switch>
       </div>
-    </BrowserRouter>
-
+    </Router>
   );
 }
 
