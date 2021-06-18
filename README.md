@@ -4,6 +4,6 @@ Tool: VScode
 
 Lang: javascript,JSX
 
-Library: Reactjs
+Library: React, Redux, Axios
 
 DB: JSONServer
