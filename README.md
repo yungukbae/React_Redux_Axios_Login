@@ -1,6 +1,6 @@
 ### React_Redux_Axios_Login
 
-React, Redux, Axios를 활용하여 Authentication 
+React, Redux, Axios를 활용 Authentication
 
 Tool: ![Generic badge](https://img.shields.io/badge/​-VScode-skyblue?logo=Visualstudiocode)
 
