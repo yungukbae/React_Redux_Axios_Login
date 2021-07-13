@@ -5,5 +5,3 @@ Tool: ![Generic badge](https://img.shields.io/badge/​-VScode-skyblue?logo=Visu
 Lang: ![Generic badge](https://img.shields.io/badge/​-javascript-yellow?logo=javascript),JSX
 
 Library: ![Generic badge](https://img.shields.io/badge/​-react-skyblue?logo=react), ![Generic badge](https://img.shields.io/badge/​-redux-purple?logo=redux), ![Generic badge](https://img.shields.io/badge/​-axios-blueviolet?)
-
-DB: ![Generic badge](https://img.shields.io/badge/​-jsonserver-skyblue?logo=json)
