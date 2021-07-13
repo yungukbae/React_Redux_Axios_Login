@@ -1,9 +1,9 @@
 ### React_Redux_Axios_Login
 
-Tool: VScode
+Tool: ![Generic badge](https://img.shields.io/badge/​-VScode-skyblue?logo=Visualstudiocode)
 
-Lang: javascript,JSX
+Lang: ![Generic badge](https://img.shields.io/badge/​-javascript-yellow?logo=javascript),JSX
 
-Library: React, Redux, Axios
+Library: ![Generic badge](https://img.shields.io/badge/​-react-skyblue?logo=react), ![Generic badge](https://img.shields.io/badge/​-redux-purple?logo=redux), ![Generic badge](https://img.shields.io/badge/​-axios-blueviolet?)
 
-DB: JSONServer
+DB: ![Generic badge](https://img.shields.io/badge/​-jsonserver-skyblue?logo=json)
